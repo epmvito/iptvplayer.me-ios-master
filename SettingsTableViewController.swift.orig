@@ -1,0 +1,113 @@
+//
+//  SettingsTableViewController.swift
+//  iptvplayer.me-ios
+//
+//  Created by Никита on 19.08.2020.
+//  Copyright © 2020 Никита. All rights reserved.
+//
+
+import UIKit
+
+class SettingsTableViewController: UITableViewController {
+
+    @IBOutlet weak var offerSpeedCheckWhenBrowsingCell: UITableViewCell!
+    @IBOutlet weak var uploadVideoByWifiCell: UITableViewCell!
+    @IBOutlet weak var doNotAskForSecurityCodeCell: UITableViewCell!
+    @IBOutlet weak var exitFromProfileCell: UITableViewCell!
+    @IBOutlet weak var speedTestTableViewCell: UITableViewCell!
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        offerSpeedCheckWhenBrowsingCell.accessoryView = switchForCell()
+        uploadVideoByWifiCell.accessoryView = switchForCell()
+        doNotAskForSecurityCodeCell.accessoryView = switchForCell()
+        
+<<<<<<< HEAD
+//        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(exitFromProfile))
+=======
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(pushToSpeedTest))
+>>>>>>> develop
+        
+        speedTestTableViewCell.addGestureRecognizer(tapGestureRecognizer)
+//        exitFromProfileCell.addGestureRecognizer(tapGestureRecognizer)
+//        tapGestureRecognizer(withSelector: #selector(pushToSpeedTest), forCell: speedTestTableViewCell)
+    }
+    
+    // MARK: Methods
+    
+    func gestureRecognizer(withSelector selector: Selector, forCell cell: UITableViewCell) {
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: selector)
+        cell.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
+    @objc func pushToSpeedTest() {
+        let speedTestVC = UIStoryboard(name: "SpeedTest", bundle: nil).instantiateViewController(identifier: "SpeedTestViewController")
+        self.navigationController?.pushViewController(speedTestVC, animated: true)
+    }
+    
+    
+    @objc func exitFromProfile() {
+        let rootVC = storyboard?.instantiateViewController(identifier: "root")
+        
+        let nav = UINavigationController(rootViewController: rootVC!)
+        nav.modalPresentationStyle = .fullScreen
+        present(nav, animated: true)
+    }
+    
+    func switchForCell() -> UISwitch {
+        let switchView = UISwitch(frame: .zero)
+        switchView.setOn(false, animated: true)
+        
+        return switchView
+    }
+
+    // MARK: - Table view data source
+
+    /*
+    // Override to support conditional editing of the table view.
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        // Return false if you do not want the specified item to be editable.
+        return true
+    }
+    */
+
+    /*
+    // Override to support editing the table view.
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            // Delete the row from the data source
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        } else if editingStyle == .insert {
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        }    
+    }
+    */
+
+    /*
+    // Override to support rearranging the table view.
+    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
+
+    }
+    */
+
+    /*
+    // Override to support conditional rearranging of the table view.
+    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+        // Return false if you do not want the item to be re-orderable.
+        return true
+    }
+    */
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
