@@ -1,0 +1,98 @@
+
+
+"files" = "Файлы";
+"favorites" = "Избранное";
+"filters" = "Фильтры";
+"television" = "Телевидение";
+"video" = "Видео";
+
+"search" = "поиск";
+"sorting" = "Сортировка";
+"types" = "Тип";
+"genres" = "Жанры";
+"years" = "Годы выхода";
+"ratingKinopoisk" = "Рейтинг Кинопоиска";
+"ratingIMDB" = "Рейтинг IMDB";
+"clear" = "Очистить";
+"apply" = "Применить";
+"filters" = "Фильтры";
+"last" = "По дате";
+"best" = "Лучшее";
+
+
+// Genres
+
+"anime" = "аниме";
+"biography" = "биография";
+"boevik" ="боевик" ;
+"western" = "вестерн";
+"war" = "военный";
+"detective" = "детектив";
+"kids" = "детское";
+"documentary" ="документальный" ;
+"drama" = "драма";
+"historical" = "история";
+"comedy" = "комедия";
+"concert" = "концерт";
+"short film" = "короткометражка";
+"criminal" = "криминал";
+"melodrama" = "мелодрама";
+"music" = "музыка";
+"cartoon" = "мультфильм";
+"musical" = "мюзикл";
+"adventures" = "приключения";
+"family" = "семейный";
+"sport" = "спорт";
+"thriller" = "триллер";
+"horror" = "ужасы";
+"science-fiction" = "фантастика";
+"noire" = "фильм-нуар";
+"fantasy" = "фэнтези";
+
+
+//settings
+
+"settings" = "Настройки";
+"speedTest" = "Тест скорости";
+"start" = "Старт";
+"server" = "Сервер";
+"timeShift" = "Задержка вещания";
+"BitrateVideoteka" = "Битрейт Видео";
+"Bitrate" = "Битрейт";
+"TimeZones" = "Часовой пояс";
+
+
+"LinkCantBeEmpty" = "Ссылка не может быть пустой";
+"InvalidUrl" = "Недействительный адрес URL";
+"IncorrectLoginCredentials" = "Неправильные реквизиты для входа";
+"CheckLogin" = "Проверьте ваш логин и пароль.";
+"FieldsAboveIsEmpty" = "Одно из полей пустое";
+"EnterLoginAndPassword" = "Пожалуйста, введите логин и пароль.";
+"OnlyNumbersAllowed" = "Разрешены только цифры";
+"UseOnlyNumbers" = "Пожалуйста, используйте только цифры";
+"SlowConnection" = "Медленное соединение";
+"ServerChanged" = "Сервер сменен";
+"BestResult" = "Лучший результат";
+"RequestTimedOut" = "Время запроса истекло.";
+
+
+"information" = "Информация";
+"enterURL" = "Введите URL";
+"save" = "Сохранить";
+"cancel" = "Отменить";
+
+
+//week
+"monday" = "Понедельник";
+"tuesday" = "Вторник";
+"wednesday" = "Среда";
+"thursday" = "Четверг";
+"friday" = "Пятница";
+"saturday" = "Суббота";
+"sunday" = "Воскресенье";
+
+//version check
+"no" = "Нет";
+"yes" = "Да";
+"notice" = "Внимание!";
+"latestVersion" = "Вы хотите скачать последнюю версию приложения?";

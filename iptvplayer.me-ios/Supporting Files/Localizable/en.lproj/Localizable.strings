@@ -1,0 +1,92 @@
+
+"files" = "Files";
+"favorites" = "favorites";
+"filters" = "Filters";
+"television" = "television";
+"video" = "Video";
+
+"search" = "search";
+"sorting" = "Sorting";
+"types" = "Types";
+"genres" = "Genres";
+"years" = "Years";
+"ratingKinopoisk" = "Kinopoisk";
+"ratingIMDB" = "IMDB";
+"clear" = "clear";
+"apply" = "apply";
+"filters" = "filters";
+"last" = "last";
+"best" = "best";
+
+// Genres
+
+"anime" = "anime";
+"biography" = "biography";
+"boevik" ="action" ;
+"western" = "western";
+"war" = "war";
+"detective" = "detective";
+"kids" = "kids";
+"documentary" ="documentary" ;
+"drama" = "drama";
+"historical" = "historical";
+"comedy" = "comedy";
+"concert" = "concert";
+"short film" = "short film";
+"criminal" = "criminal";
+"melodrama" = "melodrama";
+"music" = "music";
+"cartoon" = "cartoon";
+"musical" = "musical";
+"adventures" = "adventures";
+"family" = "family";
+"sport" = "sport";
+"thriller" = "thriller";
+"horror" = "horror";
+"science-fiction" = "science-fiction";
+"noire" = "noire";
+"fantasy" = "fantasy";
+//settings
+"settings" = "Settings";
+"speedTest" = "Speed Test";
+"start" = "Start";
+"server" = "Server";
+"timeShift" = "Time Shift";
+"BitrateVideoteka" = "Bitrate Video";
+"Bitrate" = "Bitrate";
+"TimeZones" = "Time Zones";
+
+
+"LinkCantBeEmpty" = "Link can not be empty!";
+"InvalidUrl" = "URL is Invalid!";
+"IncorrectLoginCredentials" = "Incorrect login credentials";
+"CheckLogin" = "Please check your login and password, then try again.";
+"FieldsAboveIsEmpty" = "At least one of the fields above is empty";
+"EnterLoginAndPassword" = "Please enter your Login and Password to proceed.";
+"OnlyNumbersAllowed" = "Only numbers are alowed";
+"UseOnlyNumbers" = "Please use only numbers";
+"SlowConnection" = "Slow Connection";
+"ServerChanged" = "Server has been changed";
+"BestResult" = "Best result";
+"RequestTimedOut" = "The request timed out.";
+
+"information" = "Information";
+"enterURL" = "Enter URL";
+"save" = "Save";
+"cancel" = "Cancel";
+
+//Week
+"monday" = "Monday";
+"tuesday" = "Tuesday";
+"wednesday" = "Wednesday";
+"thursday" = "Thursday";
+"friday" = "Friday";
+"saturday" = "Saturday";
+"sunday" = "Sunday";
+
+//version check
+"no" = "No";
+"yes" = "Yes";
+"notice" = "Notice!";
+"latestVersion" = "Do you want to download the latest version?";
+

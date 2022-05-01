@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (5.5.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - Kingfisher (6.3.1)
+  - MBProgressHUD (1.2.0)
+  - ObjectMapper (4.2.0)
+  - Pageboy (3.6.2)
+  - PKHUD (5.3.0)
+  - Tabman (2.12.0):
+    - Pageboy (~> 3.6.0)
+  - VersaPlayer (3.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MBProgressHUD
+  - ObjectMapper
+  - PKHUD (~> 5.0)
+  - Tabman (~> 2.9)
+  - VersaPlayer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MBProgressHUD
+    - ObjectMapper
+    - Pageboy
+    - PKHUD
+    - Tabman
+    - VersaPlayer
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  Tabman: 447a50447ed2869c39ab3b1a779327e43e067c4e
+  VersaPlayer: 0e9a0ea7da786729ffb377dbd17b34641a8265e4
+
+PODFILE CHECKSUM: 001c21781cf6db908795fb5b44b78143d2e78d78
+
+COCOAPODS: 1.11.3

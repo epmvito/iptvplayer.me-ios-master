@@ -1,0 +1,1283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070144C3281031280057CA01 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 070144C5281031280057CA01 /* Localizable.strings */; };
+		073A518E280B072000A19793 /* BitrateView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073A518D280B072000A19793 /* BitrateView.storyboard */; };
+		073A5192280B075700A19793 /* BitrateSDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A5191280B075700A19793 /* BitrateSDViewController.swift */; };
+		073A5195280C35DE00A19793 /* tableViewExtansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A5194280C35DE00A19793 /* tableViewExtansion.swift */; };
+		073A5197280C54A900A19793 /* TimeShiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A5196280C54A900A19793 /* TimeShiftViewController.swift */; };
+		073A5199280C577900A19793 /* BitrateVideotekaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A5198280C577900A19793 /* BitrateVideotekaViewController.swift */; };
+		073A519B280C5B9F00A19793 /* TimeZoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A519A280C5B9F00A19793 /* TimeZoneViewController.swift */; };
+		073A519D280C64F300A19793 /* ServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A519C280C64F300A19793 /* ServerViewController.swift */; };
+		073A51A0280C8AC600A19793 /* SettingsServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A519F280C8AC500A19793 /* SettingsServiceImpl.swift */; };
+		073A51A2280C8B0000A19793 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A51A1280C8B0000A19793 /* SettingsService.swift */; };
+		073A51A5280C8C7400A19793 /* RowSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A51A4280C8C7400A19793 /* RowSettings.swift */; };
+		073A51A8280C8D7800A19793 /* SettingsResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A51A7280C8D7800A19793 /* SettingsResponce.swift */; };
+		073A51AB280D81C500A19793 /* RadioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A51A9280D81C500A19793 /* RadioTableViewCell.swift */; };
+		073A51AC280D81C500A19793 /* RadioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073A51AA280D81C500A19793 /* RadioTableViewCell.xib */; };
+		073A51AE280DC6ED00A19793 /* Radio2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A51AD280DC6ED00A19793 /* Radio2TableViewCell.swift */; };
+		073A51B0280DCAB400A19793 /* Radio2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073A51AF280DCAB400A19793 /* Radio2TableViewCell.xib */; };
+		07C51604281160B2001873F6 /* Radio3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C51602281160B2001873F6 /* Radio3TableViewCell.swift */; };
+		07C51605281160B2001873F6 /* Radio3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C51603281160B2001873F6 /* Radio3TableViewCell.xib */; };
+		07C5160A28116B89001873F6 /* Radio4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C5160828116B89001873F6 /* Radio4TableViewCell.swift */; };
+		07C5160B28116B89001873F6 /* Radio4TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C5160928116B89001873F6 /* Radio4TableViewCell.xib */; };
+		0B1D06E928006B340073A8DA /* VersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D06E828006B340073A8DA /* VersionCheck.swift */; };
+		0BBB04AB28076532003B8182 /* VideoFileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB04AA28076532003B8182 /* VideoFileTableViewCell.swift */; };
+		0BBB04AD280769C0003B8182 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB04AC280769C0003B8182 /* VideoPlayerViewController.swift */; };
+		11038BAF25304B5A00A44945 /* ProviderDataModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11038BAE25304B5A00A44945 /* ProviderDataModelItem.swift */; };
+		1117E5E824EBE81B0003827C /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117E5E724EBE81B0003827C /* ChannelCell.swift */; };
+		1117E5EA24EBEF070003827C /* ProgramsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117E5E924EBEF070003827C /* ProgramsList.swift */; };
+		1120C28124E13FD800F5C32D /* ProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120C28024E13FD800F5C32D /* ProviderViewController.swift */; };
+		112F046A24E97DEC00AFCA4A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F046924E97DEC00AFCA4A /* Category.swift */; };
+		112FB52A24E2821C00190AD6 /* PlaylistModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112FB52924E2821C00190AD6 /* PlaylistModeViewController.swift */; };
+		113A5B9D251DD2AE00F2F901 /* TVProgramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A5B9C251DD2AE00F2F901 /* TVProgramCell.swift */; };
+		11522C4724ED40A4004A8CF1 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11522C4624ED40A4004A8CF1 /* SettingsTableViewController.swift */; };
+		11972A2F251A188100D6F6EB /* TVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11972A2E251A188100D6F6EB /* TVPlayerViewController.swift */; };
+		11A42B7C24EAA01500E52980 /* ChannelCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A42B7B24EAA01500E52980 /* ChannelCategoryCell.swift */; };
+		11A516EB24DD3FC80023B096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A516EA24DD3FC80023B096 /* AppDelegate.swift */; };
+		11A516F224DD3FC80023B096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A516F024DD3FC80023B096 /* Main.storyboard */; };
+		11A516F424DD3FC90023B096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A516F324DD3FC90023B096 /* Assets.xcassets */; };
+		11A516F724DD3FC90023B096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A516F524DD3FC90023B096 /* LaunchScreen.storyboard */; };
+		11A5170024DD4C150023B096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A516FF24DD4C150023B096 /* ViewController.swift */; };
+		11A5170424DD55FD0023B096 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5170324DD55FD0023B096 /* MainButton.swift */; };
+		11B82ADB2535A09F00951FDA /* ProviderHintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B82ADA2535A09F00951FDA /* ProviderHintCell.swift */; };
+		11B8384924E41BCA001804ED /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8384824E41BCA001804ED /* TabBarController.swift */; };
+		11CD59BC24E2CE5000AA0490 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD59BB24E2CE5000AA0490 /* SignInViewController.swift */; };
+		11E50A4D24E4F8BA00154E1B /* TVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E50A4C24E4F8BA00154E1B /* TVViewController.swift */; };
+		11E651972547E2100065786C /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E651962547E2100065786C /* MainNavigationController.swift */; };
+		701B7F47255FE672002853A3 /* URLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701B7F46255FE672002853A3 /* URLProvider.swift */; };
+		70C4413125540CBB0057494B /* NetworkInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C4413025540CBB0057494B /* NetworkInterceptor.swift */; };
+		70E45E882551B1EC00F22CBB /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E45E872551B1EC00F22CBB /* AuthorizationManager.swift */; };
+		70F5F51525592B7600314BFC /* ChannelsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F5F51425592B7600314BFC /* ChannelsList.swift */; };
+		B6F208355C273986F8A15324 /* Pods_iptvplayer_me_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA68B849A9A73B540E57F5B /* Pods_iptvplayer_me_ios.framework */; };
+		D80508CC256B9EBF00D1723D /* VideosFavorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80508CB256B9EBF00D1723D /* VideosFavorites.storyboard */; };
+		D80508CE256B9F0E00D1723D /* VideosFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508CD256B9F0E00D1723D /* VideosFavoritesViewController.swift */; };
+		D80508D5256BA75E00D1723D /* FavoriteListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508D4256BA75E00D1723D /* FavoriteListService.swift */; };
+		D80508D8256BA7C900D1723D /* FavoriteListServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508D7256BA7C900D1723D /* FavoriteListServiceImpl.swift */; };
+		D80508DA256BE8B300D1723D /* VideoDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80508D9256BE8B300D1723D /* VideoDetails.storyboard */; };
+		D80508DC256BE8E000D1723D /* VideoDetailsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508DB256BE8E000D1723D /* VideoDetailsMainViewController.swift */; };
+		D80508DE256BE91300D1723D /* VideoDetailsInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508DD256BE91300D1723D /* VideoDetailsInformationViewController.swift */; };
+		D80508E0256BE92800D1723D /* VideoDetailsFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508DF256BE92800D1723D /* VideoDetailsFilesViewController.swift */; };
+		D80508E3256C128200D1723D /* VideoDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508E2256C128200D1723D /* VideoDetailsService.swift */; };
+		D80508E5256C129E00D1723D /* VideoDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508E4256C129E00D1723D /* VideoDetailResponse.swift */; };
+		D80508E7256C159800D1723D /* VideoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508E6256C159800D1723D /* VideoDetail.swift */; };
+		D80508E9256C165F00D1723D /* VideoDetailsServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80508E8256C165F00D1723D /* VideoDetailsServiceImpl.swift */; };
+		D83802032540575900F47571 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83802022540575900F47571 /* BaseResponse.swift */; };
+		D83802052540576D00F47571 /* BaseServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83802042540576D00F47571 /* BaseServiceError.swift */; };
+		D83802072540577C00F47571 /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83802062540577C00F47571 /* WebClient.swift */; };
+		D838020B2540579E00F47571 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838020A2540579E00F47571 /* ServiceError.swift */; };
+		D838020E2540592A00F47571 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838020D2540592A00F47571 /* Entity.swift */; };
+		D83802182540742400F47571 /* GetProvidersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83802172540742400F47571 /* GetProvidersService.swift */; };
+		D838021A2540743400F47571 /* GetProvidersServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83802192540743400F47571 /* GetProvidersServiceImpl.swift */; };
+		D838021D2540885800F47571 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838021C2540885800F47571 /* UIViewController.swift */; };
+		D865C4A6255175E500A28BA4 /* SpeedTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D865C4A5255175E500A28BA4 /* SpeedTest.storyboard */; };
+		D865C4A92551760E00A28BA4 /* SpeedTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865C4A82551760E00A28BA4 /* SpeedTestViewController.swift */; };
+		D865C4AD255176EE00A28BA4 /* ServersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865C4AB255176EE00A28BA4 /* ServersTableViewCell.swift */; };
+		D865C4AE255176EE00A28BA4 /* ServersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D865C4AC255176EE00A28BA4 /* ServersTableViewCell.xib */; };
+		D865C4B02551777800A28BA4 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865C4AF2551777800A28BA4 /* PrimaryButton.swift */; };
+		D8793F1B255BE99500F8AFF1 /* ServersSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8793F1A255BE99500F8AFF1 /* ServersSettingsService.swift */; };
+		D8793F1D255BE9A700F8AFF1 /* ServersSettingsImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8793F1C255BE9A700F8AFF1 /* ServersSettingsImpl.swift */; };
+		D8893A722563CA4F00A84712 /* VideosFilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A702563CA4F00A84712 /* VideosFilterTableViewCell.swift */; };
+		D8893A732563CA4F00A84712 /* VideosFilterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8893A712563CA4F00A84712 /* VideosFilterTableViewCell.xib */; };
+		D8893A762563CBAC00A84712 /* VideosFilterTableCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A752563CBAC00A84712 /* VideosFilterTableCellModel.swift */; };
+		D8893A782563D90500A84712 /* VideosFilterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A772563D90500A84712 /* VideosFilterDetailsViewController.swift */; };
+		D8893A7C2563F53E00A84712 /* GetFiltersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A7B2563F53E00A84712 /* GetFiltersService.swift */; };
+		D8893A7E2563F79600A84712 /* GetFiltersImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A7D2563F79600A84712 /* GetFiltersImpl.swift */; };
+		D8893A802563F80D00A84712 /* GetFilterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A7F2563F80D00A84712 /* GetFilterResponse.swift */; };
+		D8893A822563F93300A84712 /* VideosFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A812563F93300A84712 /* VideosFilter.swift */; };
+		D8893A85256406E200A84712 /* VideosFilterDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A83256406E200A84712 /* VideosFilterDetailsTableViewCell.swift */; };
+		D8893A86256406E200A84712 /* VideosFilterDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8893A84256406E200A84712 /* VideosFilterDetailsTableViewCell.xib */; };
+		D8893A88256407CD00A84712 /* VideosFilterDetailsTableCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A87256407CD00A84712 /* VideosFilterDetailsTableCellModel.swift */; };
+		D8893A8B25641F0000A84712 /* VideosFilterSortingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A8925641F0000A84712 /* VideosFilterSortingTableViewCell.swift */; };
+		D8893A8C25641F0000A84712 /* VideosFilterSortingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8893A8A25641F0000A84712 /* VideosFilterSortingTableViewCell.xib */; };
+		D8893A90256459E200A84712 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8893A8F256459E200A84712 /* Filters.swift */; };
+		D8A9A97E255E812D009DDD63 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A97D255E812D009DDD63 /* Array.swift */; };
+		D8A9A980255E9166009DDD63 /* VideosServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A97F255E9166009DDD63 /* VideosServiceResponse.swift */; };
+		D8A9A983255E931D009DDD63 /* RowVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A982255E931D009DDD63 /* RowVideo.swift */; };
+		D8A9A985255E9634009DDD63 /* RowVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A984255E9634009DDD63 /* RowVideoData.swift */; };
+		D8A9A987255E96D0009DDD63 /* RowVideoDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A986255E96D0009DDD63 /* RowVideoDataItem.swift */; };
+		D8A9A989255E99EE009DDD63 /* VideosServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A988255E99EE009DDD63 /* VideosServiceImpl.swift */; };
+		D8A9A98B255E9A9B009DDD63 /* VideosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A98A255E9A9B009DDD63 /* VideosService.swift */; };
+		D8A9A9902562D683009DDD63 /* VideosFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A98F2562D683009DDD63 /* VideosFiltersViewController.swift */; };
+		D8B140F7255178D400B86848 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B140F6255178D400B86848 /* UIColor.swift */; };
+		D8B140F92551A03200B86848 /* ServerTableCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B140F82551A03200B86848 /* ServerTableCellModel.swift */; };
+		D8B140FC2551A0BA00B86848 /* ServersTestingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B140FB2551A0BA00B86848 /* ServersTestingResponse.swift */; };
+		D8B14109255575DE00B86848 /* SpeedTestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B14108255575DE00B86848 /* SpeedTestClient.swift */; };
+		D8F91DCB255D439600645816 /* VideosFilters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F91DCA255D439600645816 /* VideosFilters.storyboard */; };
+		D8F91DCE255D4B7D00645816 /* VideosNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F91DCD255D4B7D00645816 /* VideosNewViewController.swift */; };
+		D8F91DD3255D4E8600645816 /* VideosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F91DD1255D4E8600645816 /* VideosCollectionViewCell.swift */; };
+		D8F91DD4255D4E8600645816 /* VideosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F91DD2255D4E8600645816 /* VideosCollectionViewCell.xib */; };
+		D8F91DD6255D638200645816 /* VideoCollectionCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F91DD5255D638200645816 /* VideoCollectionCellModel.swift */; };
+		D8F91DD8255D86AE00645816 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F91DD7255D86AE00645816 /* String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070144C4281031280057CA01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		070144C6281031290057CA01 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		073A518D280B072000A19793 /* BitrateView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BitrateView.storyboard; sourceTree = "<group>"; };
+		073A5191280B075700A19793 /* BitrateSDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitrateSDViewController.swift; sourceTree = "<group>"; };
+		073A5194280C35DE00A19793 /* tableViewExtansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewExtansion.swift; sourceTree = "<group>"; };
+		073A5196280C54A900A19793 /* TimeShiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeShiftViewController.swift; sourceTree = "<group>"; };
+		073A5198280C577900A19793 /* BitrateVideotekaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitrateVideotekaViewController.swift; sourceTree = "<group>"; };
+		073A519A280C5B9F00A19793 /* TimeZoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneViewController.swift; sourceTree = "<group>"; };
+		073A519C280C64F300A19793 /* ServerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerViewController.swift; sourceTree = "<group>"; };
+		073A519F280C8AC500A19793 /* SettingsServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsServiceImpl.swift; sourceTree = "<group>"; };
+		073A51A1280C8B0000A19793 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		073A51A4280C8C7400A19793 /* RowSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowSettings.swift; sourceTree = "<group>"; };
+		073A51A7280C8D7800A19793 /* SettingsResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsResponce.swift; sourceTree = "<group>"; };
+		073A51A9280D81C500A19793 /* RadioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioTableViewCell.swift; sourceTree = "<group>"; };
+		073A51AA280D81C500A19793 /* RadioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioTableViewCell.xib; sourceTree = "<group>"; };
+		073A51AD280DC6ED00A19793 /* Radio2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio2TableViewCell.swift; sourceTree = "<group>"; };
+		073A51AF280DCAB400A19793 /* Radio2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Radio2TableViewCell.xib; sourceTree = "<group>"; };
+		07B3C0342810194300D0B357 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		07B3C0352810194300D0B357 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		07B3C03E28101AF800D0B357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		07C51602281160B2001873F6 /* Radio3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio3TableViewCell.swift; sourceTree = "<group>"; };
+		07C51603281160B2001873F6 /* Radio3TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Radio3TableViewCell.xib; sourceTree = "<group>"; };
+		07C5160828116B89001873F6 /* Radio4TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio4TableViewCell.swift; sourceTree = "<group>"; };
+		07C5160928116B89001873F6 /* Radio4TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Radio4TableViewCell.xib; sourceTree = "<group>"; };
+		0B1D06E828006B340073A8DA /* VersionCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionCheck.swift; sourceTree = "<group>"; };
+		0BBB04AA28076532003B8182 /* VideoFileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideoFileTableViewCell.swift; path = "iptvplayer.me-ios/Videos/ViewController/VideoFileTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		0BBB04AC280769C0003B8182 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideoPlayerViewController.swift; path = "iptvplayer.me-ios/Videos/VideoDetails/Controller/VideoPlayerViewController.swift"; sourceTree = SOURCE_ROOT; wrapsLines = 0; };
+		11038BAE25304B5A00A44945 /* ProviderDataModelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProviderDataModelItem.swift; path = "iptvplayer.me-ios/Auth/Model/ProviderDataModelItem.swift"; sourceTree = SOURCE_ROOT; };
+		11038BB025307D2D00A44945 /* ProviderDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDataModel.swift; sourceTree = "<group>"; };
+		110B5BC82513325600EA5349 /* FilterCategoryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCategoryDataModel.swift; sourceTree = "<group>"; };
+		1117E5E724EBE81B0003827C /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		1117E5E924EBEF070003827C /* ProgramsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsList.swift; sourceTree = "<group>"; };
+		1120C28024E13FD800F5C32D /* ProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderViewController.swift; sourceTree = "<group>"; };
+		112F046924E97DEC00AFCA4A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		112FB52924E2821C00190AD6 /* PlaylistModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModeViewController.swift; sourceTree = "<group>"; };
+		113A5B9C251DD2AE00F2F901 /* TVProgramCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVProgramCell.swift; sourceTree = SOURCE_ROOT; };
+		11522C4624ED40A4004A8CF1 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		11972A2E251A188100D6F6EB /* TVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVPlayerViewController.swift; path = "iptvplayer.me-ios/View/TVPlayerViewController.swift"; sourceTree = SOURCE_ROOT; };
+		11A42B7B24EAA01500E52980 /* ChannelCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCategoryCell.swift; sourceTree = "<group>"; };
+		11A516E724DD3FC80023B096 /* iptvplayer.me-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iptvplayer.me-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A516EA24DD3FC80023B096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11A516F124DD3FC80023B096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A516F324DD3FC90023B096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A516F624DD3FC90023B096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A516F824DD3FC90023B096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A516FF24DD4C150023B096 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11A5170324DD55FD0023B096 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		11B82ADA2535A09F00951FDA /* ProviderHintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderHintCell.swift; sourceTree = "<group>"; };
+		11B8384824E41BCA001804ED /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = "iptvplayer.me-ios/View/TabBarController.swift"; sourceTree = SOURCE_ROOT; };
+		11CD59BB24E2CE5000AA0490 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		11E50A4C24E4F8BA00154E1B /* TVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVViewController.swift; path = "iptvplayer.me-ios/View/TVViewController.swift"; sourceTree = SOURCE_ROOT; };
+		11E651962547E2100065786C /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = "iptvplayer.me-ios/Controller/MainNavigationController.swift"; sourceTree = SOURCE_ROOT; };
+		33FBDC8C3F087708D069B5D7 /* Pods-iptvplayer.me-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iptvplayer.me-ios.release.xcconfig"; path = "Target Support Files/Pods-iptvplayer.me-ios/Pods-iptvplayer.me-ios.release.xcconfig"; sourceTree = "<group>"; };
+		5A3C4AEFA69704550173A033 /* Pods-iptvplayer.me-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iptvplayer.me-ios.debug.xcconfig"; path = "Target Support Files/Pods-iptvplayer.me-ios/Pods-iptvplayer.me-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		701B7F46255FE672002853A3 /* URLProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProvider.swift; sourceTree = "<group>"; };
+		70C4413025540CBB0057494B /* NetworkInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptor.swift; sourceTree = "<group>"; };
+		70E45E872551B1EC00F22CBB /* AuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationManager.swift; sourceTree = "<group>"; };
+		70F5F51425592B7600314BFC /* ChannelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsList.swift; sourceTree = "<group>"; };
+		ADA68B849A9A73B540E57F5B /* Pods_iptvplayer_me_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iptvplayer_me_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80508CB256B9EBF00D1723D /* VideosFavorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VideosFavorites.storyboard; sourceTree = "<group>"; };
+		D80508CD256B9F0E00D1723D /* VideosFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFavoritesViewController.swift; sourceTree = "<group>"; };
+		D80508D4256BA75E00D1723D /* FavoriteListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListService.swift; sourceTree = "<group>"; };
+		D80508D7256BA7C900D1723D /* FavoriteListServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListServiceImpl.swift; sourceTree = "<group>"; };
+		D80508D9256BE8B300D1723D /* VideoDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VideoDetails.storyboard; sourceTree = "<group>"; };
+		D80508DB256BE8E000D1723D /* VideoDetailsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsMainViewController.swift; sourceTree = "<group>"; };
+		D80508DD256BE91300D1723D /* VideoDetailsInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsInformationViewController.swift; sourceTree = "<group>"; };
+		D80508DF256BE92800D1723D /* VideoDetailsFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsFilesViewController.swift; sourceTree = "<group>"; };
+		D80508E2256C128200D1723D /* VideoDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsService.swift; sourceTree = "<group>"; };
+		D80508E4256C129E00D1723D /* VideoDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailResponse.swift; sourceTree = "<group>"; };
+		D80508E6256C159800D1723D /* VideoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetail.swift; sourceTree = "<group>"; };
+		D80508E8256C165F00D1723D /* VideoDetailsServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsServiceImpl.swift; sourceTree = "<group>"; };
+		D83802022540575900F47571 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		D83802042540576D00F47571 /* BaseServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServiceError.swift; sourceTree = "<group>"; };
+		D83802062540577C00F47571 /* WebClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebClient.swift; sourceTree = "<group>"; };
+		D838020A2540579E00F47571 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		D838020D2540592A00F47571 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		D83802172540742400F47571 /* GetProvidersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProvidersService.swift; sourceTree = "<group>"; };
+		D83802192540743400F47571 /* GetProvidersServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProvidersServiceImpl.swift; sourceTree = "<group>"; };
+		D838021C2540885800F47571 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D865C4A5255175E500A28BA4 /* SpeedTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpeedTest.storyboard; sourceTree = "<group>"; };
+		D865C4A82551760E00A28BA4 /* SpeedTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestViewController.swift; sourceTree = "<group>"; };
+		D865C4AB255176EE00A28BA4 /* ServersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersTableViewCell.swift; sourceTree = "<group>"; };
+		D865C4AC255176EE00A28BA4 /* ServersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServersTableViewCell.xib; sourceTree = "<group>"; };
+		D865C4AF2551777800A28BA4 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		D8793F1A255BE99500F8AFF1 /* ServersSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersSettingsService.swift; sourceTree = "<group>"; };
+		D8793F1C255BE9A700F8AFF1 /* ServersSettingsImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersSettingsImpl.swift; sourceTree = "<group>"; };
+		D8893A702563CA4F00A84712 /* VideosFilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFilterTableViewCell.swift; sourceTree = "<group>"; };
+		D8893A712563CA4F00A84712 /* VideosFilterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosFilterTableViewCell.xib; sourceTree = "<group>"; };
+		D8893A752563CBAC00A84712 /* VideosFilterTableCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFilterTableCellModel.swift; sourceTree = "<group>"; };
+		D8893A772563D90500A84712 /* VideosFilterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFilterDetailsViewController.swift; sourceTree = "<group>"; };
+		D8893A7B2563F53E00A84712 /* GetFiltersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFiltersService.swift; sourceTree = "<group>"; };
+		D8893A7D2563F79600A84712 /* GetFiltersImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFiltersImpl.swift; sourceTree = "<group>"; };
+		D8893A7F2563F80D00A84712 /* GetFilterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFilterResponse.swift; sourceTree = "<group>"; };
+		D8893A812563F93300A84712 /* VideosFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFilter.swift; sourceTree = "<group>"; };
+		D8893A83256406E200A84712 /* VideosFilterDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFilterDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		D8893A84256406E200A84712 /* VideosFilterDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosFilterDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		D8893A87256407CD00A84712 /* VideosFilterDetailsTableCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFilterDetailsTableCellModel.swift; sourceTree = "<group>"; };
+		D8893A8925641F0000A84712 /* VideosFilterSortingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFilterSortingTableViewCell.swift; sourceTree = "<group>"; };
+		D8893A8A25641F0000A84712 /* VideosFilterSortingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosFilterSortingTableViewCell.xib; sourceTree = "<group>"; };
+		D8893A8F256459E200A84712 /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		D8A9A97D255E812D009DDD63 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D8A9A97F255E9166009DDD63 /* VideosServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosServiceResponse.swift; sourceTree = "<group>"; };
+		D8A9A982255E931D009DDD63 /* RowVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowVideo.swift; sourceTree = "<group>"; };
+		D8A9A984255E9634009DDD63 /* RowVideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowVideoData.swift; sourceTree = "<group>"; };
+		D8A9A986255E96D0009DDD63 /* RowVideoDataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowVideoDataItem.swift; sourceTree = "<group>"; };
+		D8A9A988255E99EE009DDD63 /* VideosServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosServiceImpl.swift; sourceTree = "<group>"; };
+		D8A9A98A255E9A9B009DDD63 /* VideosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosService.swift; sourceTree = "<group>"; };
+		D8A9A98F2562D683009DDD63 /* VideosFiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosFiltersViewController.swift; sourceTree = "<group>"; };
+		D8B140F6255178D400B86848 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D8B140F82551A03200B86848 /* ServerTableCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTableCellModel.swift; sourceTree = "<group>"; };
+		D8B140FB2551A0BA00B86848 /* ServersTestingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersTestingResponse.swift; sourceTree = "<group>"; };
+		D8B14108255575DE00B86848 /* SpeedTestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestClient.swift; sourceTree = "<group>"; };
+		D8F91DCA255D439600645816 /* VideosFilters.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VideosFilters.storyboard; sourceTree = "<group>"; };
+		D8F91DCD255D4B7D00645816 /* VideosNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosNewViewController.swift; sourceTree = "<group>"; };
+		D8F91DD1255D4E8600645816 /* VideosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8F91DD2255D4E8600645816 /* VideosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosCollectionViewCell.xib; sourceTree = "<group>"; };
+		D8F91DD5255D638200645816 /* VideoCollectionCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionCellModel.swift; sourceTree = "<group>"; };
+		D8F91DD7255D86AE00645816 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A516E424DD3FC80023B096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F208355C273986F8A15324 /* Pods_iptvplayer_me_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073A518A280B06B600A19793 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				073A51A3280C8C5100A19793 /* Model */,
+				073A519E280C8AA500A19793 /* Service */,
+				073A5193280C35C500A19793 /* custom */,
+				073A518B280B06CF00A19793 /* Controller */,
+				073A518C280B06DF00A19793 /* Storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		073A518B280B06CF00A19793 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				073A5191280B075700A19793 /* BitrateSDViewController.swift */,
+				073A5198280C577900A19793 /* BitrateVideotekaViewController.swift */,
+				073A5196280C54A900A19793 /* TimeShiftViewController.swift */,
+				073A519A280C5B9F00A19793 /* TimeZoneViewController.swift */,
+				073A519C280C64F300A19793 /* ServerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		073A518C280B06DF00A19793 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				073A518D280B072000A19793 /* BitrateView.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		073A5193280C35C500A19793 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				073A5194280C35DE00A19793 /* tableViewExtansion.swift */,
+				073A51A9280D81C500A19793 /* RadioTableViewCell.swift */,
+				073A51AA280D81C500A19793 /* RadioTableViewCell.xib */,
+				073A51AD280DC6ED00A19793 /* Radio2TableViewCell.swift */,
+				073A51AF280DCAB400A19793 /* Radio2TableViewCell.xib */,
+				07C51602281160B2001873F6 /* Radio3TableViewCell.swift */,
+				07C51603281160B2001873F6 /* Radio3TableViewCell.xib */,
+				07C5160828116B89001873F6 /* Radio4TableViewCell.swift */,
+				07C5160928116B89001873F6 /* Radio4TableViewCell.xib */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		073A519E280C8AA500A19793 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				073A51A6280C8D6100A19793 /* Responce */,
+				073A51A1280C8B0000A19793 /* SettingsService.swift */,
+				073A519F280C8AC500A19793 /* SettingsServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		073A51A3280C8C5100A19793 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				073A51A4280C8C7400A19793 /* RowSettings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		073A51A6280C8D6100A19793 /* Responce */ = {
+			isa = PBXGroup;
+			children = (
+				073A51A7280C8D7800A19793 /* SettingsResponce.swift */,
+			);
+			path = Responce;
+			sourceTree = "<group>";
+		};
+		07B3C03F2810258E00D0B357 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				070144C5281031280057CA01 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		1120C27C24E13CD200F5C32D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				113A5B9C251DD2AE00F2F901 /* TVProgramCell.swift */,
+				11B82ADA2535A09F00951FDA /* ProviderHintCell.swift */,
+				1117E5E724EBE81B0003827C /* ChannelCell.swift */,
+				11A42B7B24EAA01500E52980 /* ChannelCategoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1120C27D24E13CDA00F5C32D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11E651962547E2100065786C /* MainNavigationController.swift */,
+				11A516FF24DD4C150023B096 /* ViewController.swift */,
+				11B8384824E41BCA001804ED /* TabBarController.swift */,
+				112FB52924E2821C00190AD6 /* PlaylistModeViewController.swift */,
+				11522C4624ED40A4004A8CF1 /* SettingsTableViewController.swift */,
+				11E50A4C24E4F8BA00154E1B /* TVViewController.swift */,
+				11972A2E251A188100D6F6EB /* TVPlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1156AD2E24E846BB00C836A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70F5F51425592B7600314BFC /* ChannelsList.swift */,
+				701B7F46255FE672002853A3 /* URLProvider.swift */,
+				110B5BC82513325600EA5349 /* FilterCategoryDataModel.swift */,
+				112F046924E97DEC00AFCA4A /* Category.swift */,
+				1117E5E924EBEF070003827C /* ProgramsList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11A516DE24DD3FC80023B096 = {
+			isa = PBXGroup;
+			children = (
+				11A516E924DD3FC80023B096 /* iptvplayer.me-ios */,
+				11A516E824DD3FC80023B096 /* Products */,
+				D8439F15AEA4FB92F4591AE8 /* Pods */,
+				EE83F6ADA02223D0F4D54755 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11A516E824DD3FC80023B096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A516E724DD3FC80023B096 /* iptvplayer.me-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A516E924DD3FC80023B096 /* iptvplayer.me-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D83802002540571F00F47571 /* Base */,
+				D838020F25406C1A00F47571 /* Auth */,
+				D865C4A02551759A00A28BA4 /* SpeedTest */,
+				D8F91DC3255D425C00645816 /* Videos */,
+				11A516FE24DD47E60023B096 /* Supporting Files */,
+				073A518A280B06B600A19793 /* Settings */,
+				1120C27D24E13CDA00F5C32D /* Controller */,
+				D8F864D8254AFDF000AE395A /* Storyboard */,
+				1120C27C24E13CD200F5C32D /* View */,
+				1156AD2E24E846BB00C836A0 /* Model */,
+				11A516F824DD3FC90023B096 /* Info.plist */,
+			);
+			path = "iptvplayer.me-ios";
+			sourceTree = "<group>";
+		};
+		11A516FE24DD47E60023B096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07B3C03F2810258E00D0B357 /* Localizable */,
+				11A516EA24DD3FC80023B096 /* AppDelegate.swift */,
+				0B1D06E828006B340073A8DA /* VersionCheck.swift */,
+				11A516F324DD3FC90023B096 /* Assets.xcassets */,
+				11A516F524DD3FC90023B096 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D80508C6256B9DBA00D1723D /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				D80508CA256B9E9600D1723D /* Service */,
+				D80508C9256B9E8B00D1723D /* Model */,
+				D80508C8256B9E7A00D1723D /* Controller */,
+				D80508C7256B9E7000D1723D /* Storyboard */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		D80508C7256B9E7000D1723D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D80508CB256B9EBF00D1723D /* VideosFavorites.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D80508C8256B9E7A00D1723D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D80508CD256B9F0E00D1723D /* VideosFavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D80508C9256B9E8B00D1723D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D80508CA256B9E9600D1723D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D80508D4256BA75E00D1723D /* FavoriteListService.swift */,
+				D80508D7256BA7C900D1723D /* FavoriteListServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D80508CF256BA03900D1723D /* VideoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D80508D3256BA07900D1723D /* Model */,
+				D80508D2256BA07200D1723D /* Service */,
+				D80508D1256BA05800D1723D /* Storyboard */,
+				D80508D0256BA05000D1723D /* Controller */,
+			);
+			path = VideoDetails;
+			sourceTree = "<group>";
+		};
+		D80508D0256BA05000D1723D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BBB04AC280769C0003B8182 /* VideoPlayerViewController.swift */,
+				D80508DB256BE8E000D1723D /* VideoDetailsMainViewController.swift */,
+				D80508DD256BE91300D1723D /* VideoDetailsInformationViewController.swift */,
+				D80508DF256BE92800D1723D /* VideoDetailsFilesViewController.swift */,
+				0BBB04AA28076532003B8182 /* VideoFileTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D80508D1256BA05800D1723D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D80508D9256BE8B300D1723D /* VideoDetails.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D80508D2256BA07200D1723D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D80508E1256C126700D1723D /* Response */,
+				D80508E2256C128200D1723D /* VideoDetailsService.swift */,
+				D80508E8256C165F00D1723D /* VideoDetailsServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D80508D3256BA07900D1723D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D80508E6256C159800D1723D /* VideoDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D80508E1256C126700D1723D /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				D80508E4256C129E00D1723D /* VideoDetailResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		D83802002540571F00F47571 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D865C4B12551778100A28BA4 /* View */,
+				D838021B2540881E00F47571 /* Extensions */,
+				D838020C2540591900F47571 /* Protocols */,
+				D83802012540572800F47571 /* WebClient */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D83802012540572800F47571 /* WebClient */ = {
+			isa = PBXGroup;
+			children = (
+				D8B14107255575AD00B86848 /* SpeedTestClient */,
+				D83802022540575900F47571 /* BaseResponse.swift */,
+				D83802042540576D00F47571 /* BaseServiceError.swift */,
+				D83802062540577C00F47571 /* WebClient.swift */,
+				D838020A2540579E00F47571 /* ServiceError.swift */,
+			);
+			path = WebClient;
+			sourceTree = "<group>";
+		};
+		D838020C2540591900F47571 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D838020D2540592A00F47571 /* Entity.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D838020F25406C1A00F47571 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D8F864D92550179300AE395A /* Controller */,
+				D838021425406F8400F47571 /* Model */,
+				D838021025406C2800F47571 /* Service */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D838021025406C2800F47571 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				70C4413025540CBB0057494B /* NetworkInterceptor.swift */,
+				70E45E872551B1EC00F22CBB /* AuthorizationManager.swift */,
+				D83802172540742400F47571 /* GetProvidersService.swift */,
+				D83802192540743400F47571 /* GetProvidersServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D838021425406F8400F47571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11038BAE25304B5A00A44945 /* ProviderDataModelItem.swift */,
+				11038BB025307D2D00A44945 /* ProviderDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D838021B2540881E00F47571 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D838021C2540885800F47571 /* UIViewController.swift */,
+				D8B140F6255178D400B86848 /* UIColor.swift */,
+				D8F91DD7255D86AE00645816 /* String.swift */,
+				D8A9A97D255E812D009DDD63 /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D8439F15AEA4FB92F4591AE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C4AEFA69704550173A033 /* Pods-iptvplayer.me-ios.debug.xcconfig */,
+				33FBDC8C3F087708D069B5D7 /* Pods-iptvplayer.me-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D865C4A02551759A00A28BA4 /* SpeedTest */ = {
+			isa = PBXGroup;
+			children = (
+				D865C4AA255176BC00A28BA4 /* View */,
+				D865C4A4255175C800A28BA4 /* Service */,
+				D865C4A3255175C100A28BA4 /* Model */,
+				D865C4A2255175B100A28BA4 /* Controller */,
+				D865C4A1255175A800A28BA4 /* Storyboard */,
+			);
+			path = SpeedTest;
+			sourceTree = "<group>";
+		};
+		D865C4A1255175A800A28BA4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D865C4A5255175E500A28BA4 /* SpeedTest.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D865C4A2255175B100A28BA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D865C4A82551760E00A28BA4 /* SpeedTestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D865C4A3255175C100A28BA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8B140F82551A03200B86848 /* ServerTableCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D865C4A4255175C800A28BA4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D8B140FA2551A07F00B86848 /* Response */,
+				D8793F1A255BE99500F8AFF1 /* ServersSettingsService.swift */,
+				D8793F1C255BE9A700F8AFF1 /* ServersSettingsImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D865C4AA255176BC00A28BA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D865C4AB255176EE00A28BA4 /* ServersTableViewCell.swift */,
+				D865C4AC255176EE00A28BA4 /* ServersTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D865C4B12551778100A28BA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11A5170324DD55FD0023B096 /* MainButton.swift */,
+				D865C4AF2551777800A28BA4 /* PrimaryButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8893A742563CB8E00A84712 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8893A752563CBAC00A84712 /* VideosFilterTableCellModel.swift */,
+				D8893A812563F93300A84712 /* VideosFilter.swift */,
+				D8893A87256407CD00A84712 /* VideosFilterDetailsTableCellModel.swift */,
+				D8893A8F256459E200A84712 /* Filters.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8893A792563F46D00A84712 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D8893A7A2563F48100A84712 /* Response */,
+				D8893A7B2563F53E00A84712 /* GetFiltersService.swift */,
+				D8893A7D2563F79600A84712 /* GetFiltersImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D8893A7A2563F48100A84712 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				D8893A7F2563F80D00A84712 /* GetFilterResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		D8A9A981255E9180009DDD63 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				D8A9A97F255E9166009DDD63 /* VideosServiceResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		D8A9A98C2562D634009DDD63 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				D8893A792563F46D00A84712 /* Service */,
+				D8893A742563CB8E00A84712 /* Model */,
+				D8A9A9912562D6F2009DDD63 /* Storyboard */,
+				D8A9A98E2562D664009DDD63 /* View */,
+				D8A9A98D2562D64F009DDD63 /* Controller */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		D8A9A98D2562D64F009DDD63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8A9A98F2562D683009DDD63 /* VideosFiltersViewController.swift */,
+				D8893A772563D90500A84712 /* VideosFilterDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8A9A98E2562D664009DDD63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8893A702563CA4F00A84712 /* VideosFilterTableViewCell.swift */,
+				D8893A712563CA4F00A84712 /* VideosFilterTableViewCell.xib */,
+				D8893A83256406E200A84712 /* VideosFilterDetailsTableViewCell.swift */,
+				D8893A84256406E200A84712 /* VideosFilterDetailsTableViewCell.xib */,
+				D8893A8925641F0000A84712 /* VideosFilterSortingTableViewCell.swift */,
+				D8893A8A25641F0000A84712 /* VideosFilterSortingTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8A9A9912562D6F2009DDD63 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D8F91DCA255D439600645816 /* VideosFilters.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D8B140FA2551A07F00B86848 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				D8B140FB2551A0BA00B86848 /* ServersTestingResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		D8B14107255575AD00B86848 /* SpeedTestClient */ = {
+			isa = PBXGroup;
+			children = (
+				D8B14108255575DE00B86848 /* SpeedTestClient.swift */,
+			);
+			path = SpeedTestClient;
+			sourceTree = "<group>";
+		};
+		D8F864D8254AFDF000AE395A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				11A516F024DD3FC80023B096 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D8F864D92550179300AE395A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1120C28024E13FD800F5C32D /* ProviderViewController.swift */,
+				11CD59BB24E2CE5000AA0490 /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8F91DC3255D425C00645816 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				D80508C6256B9DBA00D1723D /* Favorites */,
+				D80508CF256BA03900D1723D /* VideoDetails */,
+				D8A9A98C2562D634009DDD63 /* Filters */,
+				D8F91DC9255D42CA00645816 /* View */,
+				D8F91DC8255D42BA00645816 /* Service */,
+				D8F91DC7255D42B500645816 /* Model */,
+				D8F91DC4255D428600645816 /* ViewController */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		D8F91DC4255D428600645816 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D8F91DCD255D4B7D00645816 /* VideosNewViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D8F91DC7255D42B500645816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8F91DD5255D638200645816 /* VideoCollectionCellModel.swift */,
+				D8A9A982255E931D009DDD63 /* RowVideo.swift */,
+				D8A9A984255E9634009DDD63 /* RowVideoData.swift */,
+				D8A9A986255E96D0009DDD63 /* RowVideoDataItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8F91DC8255D42BA00645816 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D8A9A981255E9180009DDD63 /* Response */,
+				D8A9A98A255E9A9B009DDD63 /* VideosService.swift */,
+				D8A9A988255E99EE009DDD63 /* VideosServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D8F91DC9255D42CA00645816 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8F91DD2255D4E8600645816 /* VideosCollectionViewCell.xib */,
+				D8F91DD1255D4E8600645816 /* VideosCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE83F6ADA02223D0F4D54755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADA68B849A9A73B540E57F5B /* Pods_iptvplayer_me_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A516E624DD3FC80023B096 /* iptvplayer.me-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A516FB24DD3FC90023B096 /* Build configuration list for PBXNativeTarget "iptvplayer.me-ios" */;
+			buildPhases = (
+				B447F5C56BA6BEB956C79E4D /* [CP] Check Pods Manifest.lock */,
+				11A516E324DD3FC80023B096 /* Sources */,
+				11A516E424DD3FC80023B096 /* Frameworks */,
+				11A516E524DD3FC80023B096 /* Resources */,
+				1FFBF5E949A9FA18EE75D382 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iptvplayer.me-ios";
+			productName = "iptvplayer.me-ios";
+			productReference = 11A516E724DD3FC80023B096 /* iptvplayer.me-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A516DF24DD3FC80023B096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "Никита";
+				TargetAttributes = {
+					11A516E624DD3FC80023B096 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 11A516E224DD3FC80023B096 /* Build configuration list for PBXProject "iptvplayer.me-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 11A516DE24DD3FC80023B096;
+			productRefGroup = 11A516E824DD3FC80023B096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A516E624DD3FC80023B096 /* iptvplayer.me-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A516E524DD3FC80023B096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073A51B0280DCAB400A19793 /* Radio2TableViewCell.xib in Resources */,
+				073A518E280B072000A19793 /* BitrateView.storyboard in Resources */,
+				D8893A86256406E200A84712 /* VideosFilterDetailsTableViewCell.xib in Resources */,
+				D865C4A6255175E500A28BA4 /* SpeedTest.storyboard in Resources */,
+				D80508CC256B9EBF00D1723D /* VideosFavorites.storyboard in Resources */,
+				D8893A732563CA4F00A84712 /* VideosFilterTableViewCell.xib in Resources */,
+				073A51AC280D81C500A19793 /* RadioTableViewCell.xib in Resources */,
+				11A516F724DD3FC90023B096 /* LaunchScreen.storyboard in Resources */,
+				D8F91DCB255D439600645816 /* VideosFilters.storyboard in Resources */,
+				07C51605281160B2001873F6 /* Radio3TableViewCell.xib in Resources */,
+				D8893A8C25641F0000A84712 /* VideosFilterSortingTableViewCell.xib in Resources */,
+				D80508DA256BE8B300D1723D /* VideoDetails.storyboard in Resources */,
+				07C5160B28116B89001873F6 /* Radio4TableViewCell.xib in Resources */,
+				D865C4AE255176EE00A28BA4 /* ServersTableViewCell.xib in Resources */,
+				11A516F424DD3FC90023B096 /* Assets.xcassets in Resources */,
+				070144C3281031280057CA01 /* Localizable.strings in Resources */,
+				D8F91DD4255D4E8600645816 /* VideosCollectionViewCell.xib in Resources */,
+				11A516F224DD3FC80023B096 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FFBF5E949A9FA18EE75D382 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iptvplayer.me-ios/Pods-iptvplayer.me-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iptvplayer.me-ios/Pods-iptvplayer.me-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iptvplayer.me-ios/Pods-iptvplayer.me-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B447F5C56BA6BEB956C79E4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iptvplayer.me-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A516E324DD3FC80023B096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073A5199280C577900A19793 /* BitrateVideotekaViewController.swift in Sources */,
+				112F046A24E97DEC00AFCA4A /* Category.swift in Sources */,
+				D83802052540576D00F47571 /* BaseServiceError.swift in Sources */,
+				70F5F51525592B7600314BFC /* ChannelsList.swift in Sources */,
+				D8B140F7255178D400B86848 /* UIColor.swift in Sources */,
+				073A51A2280C8B0000A19793 /* SettingsService.swift in Sources */,
+				D865C4A92551760E00A28BA4 /* SpeedTestViewController.swift in Sources */,
+				D8893A782563D90500A84712 /* VideosFilterDetailsViewController.swift in Sources */,
+				11CD59BC24E2CE5000AA0490 /* SignInViewController.swift in Sources */,
+				1117E5E824EBE81B0003827C /* ChannelCell.swift in Sources */,
+				D8893A822563F93300A84712 /* VideosFilter.swift in Sources */,
+				D8A9A987255E96D0009DDD63 /* RowVideoDataItem.swift in Sources */,
+				D8A9A97E255E812D009DDD63 /* Array.swift in Sources */,
+				D8A9A980255E9166009DDD63 /* VideosServiceResponse.swift in Sources */,
+				D80508DE256BE91300D1723D /* VideoDetailsInformationViewController.swift in Sources */,
+				D80508DC256BE8E000D1723D /* VideoDetailsMainViewController.swift in Sources */,
+				D8793F1D255BE9A700F8AFF1 /* ServersSettingsImpl.swift in Sources */,
+				D80508D5256BA75E00D1723D /* FavoriteListService.swift in Sources */,
+				1117E5EA24EBEF070003827C /* ProgramsList.swift in Sources */,
+				D8893A8B25641F0000A84712 /* VideosFilterSortingTableViewCell.swift in Sources */,
+				D8893A7E2563F79600A84712 /* GetFiltersImpl.swift in Sources */,
+				1117E5EA24EBEF070003827C /* ProgramsList.swift in Sources */,
+				073A51A8280C8D7800A19793 /* SettingsResponce.swift in Sources */,
+				D838021D2540885800F47571 /* UIViewController.swift in Sources */,
+				0BBB04AD280769C0003B8182 /* VideoPlayerViewController.swift in Sources */,
+				D8893A90256459E200A84712 /* Filters.swift in Sources */,
+				D80508E7256C159800D1723D /* VideoDetail.swift in Sources */,
+				D8B14109255575DE00B86848 /* SpeedTestClient.swift in Sources */,
+				D8F91DCE255D4B7D00645816 /* VideosNewViewController.swift in Sources */,
+				D8893A7C2563F53E00A84712 /* GetFiltersService.swift in Sources */,
+				D80508E0256BE92800D1723D /* VideoDetailsFilesViewController.swift in Sources */,
+				0BBB04AB28076532003B8182 /* VideoFileTableViewCell.swift in Sources */,
+				D8B140FC2551A0BA00B86848 /* ServersTestingResponse.swift in Sources */,
+				11972A2F251A188100D6F6EB /* TVPlayerViewController.swift in Sources */,
+				D83802182540742400F47571 /* GetProvidersService.swift in Sources */,
+				11B8384924E41BCA001804ED /* TabBarController.swift in Sources */,
+				11A516EB24DD3FC80023B096 /* AppDelegate.swift in Sources */,
+				D8A9A989255E99EE009DDD63 /* VideosServiceImpl.swift in Sources */,
+				073A5197280C54A900A19793 /* TimeShiftViewController.swift in Sources */,
+				D8A9A98B255E9A9B009DDD63 /* VideosService.swift in Sources */,
+				D8F91DD3255D4E8600645816 /* VideosCollectionViewCell.swift in Sources */,
+				D8893A722563CA4F00A84712 /* VideosFilterTableViewCell.swift in Sources */,
+				D80508D8256BA7C900D1723D /* FavoriteListServiceImpl.swift in Sources */,
+				D80508E3256C128200D1723D /* VideoDetailsService.swift in Sources */,
+				11038BAF25304B5A00A44945 /* ProviderDataModelItem.swift in Sources */,
+				11B82ADB2535A09F00951FDA /* ProviderHintCell.swift in Sources */,
+				11A42B7C24EAA01500E52980 /* ChannelCategoryCell.swift in Sources */,
+				D8B140F92551A03200B86848 /* ServerTableCellModel.swift in Sources */,
+				073A51AE280DC6ED00A19793 /* Radio2TableViewCell.swift in Sources */,
+				D83802072540577C00F47571 /* WebClient.swift in Sources */,
+				073A51A5280C8C7400A19793 /* RowSettings.swift in Sources */,
+				D865C4AD255176EE00A28BA4 /* ServersTableViewCell.swift in Sources */,
+				11E651972547E2100065786C /* MainNavigationController.swift in Sources */,
+				D80508E9256C165F00D1723D /* VideoDetailsServiceImpl.swift in Sources */,
+				D8893A802563F80D00A84712 /* GetFilterResponse.swift in Sources */,
+				D8893A88256407CD00A84712 /* VideosFilterDetailsTableCellModel.swift in Sources */,
+				07C5160A28116B89001873F6 /* Radio4TableViewCell.swift in Sources */,
+				073A5192280B075700A19793 /* BitrateSDViewController.swift in Sources */,
+				073A51A0280C8AC600A19793 /* SettingsServiceImpl.swift in Sources */,
+				701B7F47255FE672002853A3 /* URLProvider.swift in Sources */,
+				D80508E5256C129E00D1723D /* VideoDetailResponse.swift in Sources */,
+				073A5195280C35DE00A19793 /* tableViewExtansion.swift in Sources */,
+				11E50A4D24E4F8BA00154E1B /* TVViewController.swift in Sources */,
+				D80508CE256B9F0E00D1723D /* VideosFavoritesViewController.swift in Sources */,
+				073A519B280C5B9F00A19793 /* TimeZoneViewController.swift in Sources */,
+				70C4413125540CBB0057494B /* NetworkInterceptor.swift in Sources */,
+				11A5170424DD55FD0023B096 /* MainButton.swift in Sources */,
+				D838020B2540579E00F47571 /* ServiceError.swift in Sources */,
+				07C51604281160B2001873F6 /* Radio3TableViewCell.swift in Sources */,
+				D838020E2540592A00F47571 /* Entity.swift in Sources */,
+				D83802032540575900F47571 /* BaseResponse.swift in Sources */,
+				D865C4B02551777800A28BA4 /* PrimaryButton.swift in Sources */,
+				70E45E882551B1EC00F22CBB /* AuthorizationManager.swift in Sources */,
+				11522C4724ED40A4004A8CF1 /* SettingsTableViewController.swift in Sources */,
+				113A5B9D251DD2AE00F2F901 /* TVProgramCell.swift in Sources */,
+				D8F91DD8255D86AE00645816 /* String.swift in Sources */,
+				073A519D280C64F300A19793 /* ServerViewController.swift in Sources */,
+				D838021A2540743400F47571 /* GetProvidersServiceImpl.swift in Sources */,
+				0B1D06E928006B340073A8DA /* VersionCheck.swift in Sources */,
+				1120C28124E13FD800F5C32D /* ProviderViewController.swift in Sources */,
+				D8793F1B255BE99500F8AFF1 /* ServersSettingsService.swift in Sources */,
+				D8A9A983255E931D009DDD63 /* RowVideo.swift in Sources */,
+				D8893A762563CBAC00A84712 /* VideosFilterTableCellModel.swift in Sources */,
+				D8F91DD6255D638200645816 /* VideoCollectionCellModel.swift in Sources */,
+				D8A9A9902562D683009DDD63 /* VideosFiltersViewController.swift in Sources */,
+				D8893A85256406E200A84712 /* VideosFilterDetailsTableViewCell.swift in Sources */,
+				112FB52A24E2821C00190AD6 /* PlaylistModeViewController.swift in Sources */,
+				073A51AB280D81C500A19793 /* RadioTableViewCell.swift in Sources */,
+				D8A9A985255E9634009DDD63 /* RowVideoData.swift in Sources */,
+				11A5170024DD4C150023B096 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		070144C5281031280057CA01 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070144C4281031280057CA01 /* en */,
+				070144C6281031290057CA01 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		11A516F024DD3FC80023B096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A516F124DD3FC80023B096 /* Base */,
+				07B3C0352810194300D0B357 /* ru */,
+				07B3C03E28101AF800D0B357 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A516F524DD3FC90023B096 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A516F624DD3FC90023B096 /* Base */,
+				07B3C0342810194300D0B357 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A516F924DD3FC90023B096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A516FA24DD3FC90023B096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A516FC24DD3FC90023B096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3C4AEFA69704550173A033 /* Pods-iptvplayer.me-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5FUR3JF2H;
+				INFOPLIST_FILE = "iptvplayer.me-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iptvplayer-me-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A516FD24DD3FC90023B096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FBDC8C3F087708D069B5D7 /* Pods-iptvplayer.me-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5FUR3JF2H;
+				INFOPLIST_FILE = "iptvplayer.me-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iptvplayer-me-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A516E224DD3FC80023B096 /* Build configuration list for PBXProject "iptvplayer.me-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A516F924DD3FC90023B096 /* Debug */,
+				11A516FA24DD3FC90023B096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A516FB24DD3FC90023B096 /* Build configuration list for PBXNativeTarget "iptvplayer.me-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A516FC24DD3FC90023B096 /* Debug */,
+				11A516FD24DD3FC90023B096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A516DF24DD3FC80023B096 /* Project object */;
+}

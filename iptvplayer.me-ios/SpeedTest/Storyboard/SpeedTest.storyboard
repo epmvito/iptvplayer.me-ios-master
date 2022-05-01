@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Speed Test View Controller-->
+        <scene sceneID="6JT-oa-Vo2">
+            <objects>
+                <viewController storyboardIdentifier="SpeedTestViewController" id="SoO-4Y-SLJ" customClass="SpeedTestViewController" customModule="iptvplayer_me_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FW5-Y1-axy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jrk-KY-GpA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="555"/>
+                                <color key="separatorColor" red="0.94901960780000005" green="0.14901960780000001" blue="0.070588235289999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="SoO-4Y-SLJ" id="KUh-k0-3TT"/>
+                                    <outlet property="delegate" destination="SoO-4Y-SLJ" id="8jk-Kz-m1Q"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwl-iv-hMl" customClass="MainButton" customModule="iptvplayer_me_ios" customModuleProvider="target">
+                                <rect key="frame" x="24" y="571" width="327" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="UgJ-Ob-Fgb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="START"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.13725490196078433" green="0.37254901960784315" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="SoO-4Y-SLJ" eventType="touchUpInside" id="wDK-u3-0jt"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="UaC-jQ-2gz">
+                                <rect key="frame" x="177" y="323" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="b4P-ft-HKM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jrk-KY-GpA" firstAttribute="top" secondItem="b4P-ft-HKM" secondAttribute="top" id="5sB-OD-LqY"/>
+                            <constraint firstItem="b4P-ft-HKM" firstAttribute="bottom" secondItem="Fwl-iv-hMl" secondAttribute="bottom" constant="48" id="7Ze-mA-tp2"/>
+                            <constraint firstItem="Fwl-iv-hMl" firstAttribute="leading" secondItem="b4P-ft-HKM" secondAttribute="leading" constant="24" id="H2b-JI-NCH"/>
+                            <constraint firstItem="UaC-jQ-2gz" firstAttribute="centerY" secondItem="b4P-ft-HKM" secondAttribute="centerY" id="MdP-lx-bZX"/>
+                            <constraint firstItem="Fwl-iv-hMl" firstAttribute="top" secondItem="jrk-KY-GpA" secondAttribute="bottom" constant="16" id="T8C-oe-UzU"/>
+                            <constraint firstItem="UaC-jQ-2gz" firstAttribute="centerX" secondItem="b4P-ft-HKM" secondAttribute="centerX" id="TaB-fd-uJd"/>
+                            <constraint firstItem="b4P-ft-HKM" firstAttribute="trailing" secondItem="Fwl-iv-hMl" secondAttribute="trailing" constant="24" id="aIc-kP-xxk"/>
+                            <constraint firstItem="jrk-KY-GpA" firstAttribute="leading" secondItem="b4P-ft-HKM" secondAttribute="leading" id="eYr-5L-Abe"/>
+                            <constraint firstItem="b4P-ft-HKM" firstAttribute="trailing" secondItem="jrk-KY-GpA" secondAttribute="trailing" id="hmC-dN-S4E"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="UaC-jQ-2gz" id="PgH-7L-k1y"/>
+                        <outlet property="startButton" destination="Fwl-iv-hMl" id="2dO-Hv-sQG"/>
+                        <outlet property="tableView" destination="jrk-KY-GpA" id="XbH-ZP-mIS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d0h-3R-SoH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-443" y="-115"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

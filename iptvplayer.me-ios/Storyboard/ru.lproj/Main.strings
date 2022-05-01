@@ -1,0 +1,129 @@
+
+/* Class = "UIButton"; normalTitle = "BACK TO HOMESCREEN"; ObjectID = "10M-Ml-7eR"; */
+"10M-Ml-7eR.normalTitle" = "Домой";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "25R-ap-KYY"; */
+"25R-ap-KYY.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "01:01"; ObjectID = "2Hc-uG-8ia"; */
+"2Hc-uG-8ia.text" = "01:01";
+
+/* Class = "UILabel"; text = "Проверка скорости"; ObjectID = "3DM-Xb-e01"; */
+"3DM-Xb-e01.text" = "Проверка скорости";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "4ru-kG-t5Z"; */
+"4ru-kG-t5Z.title" = "Настройки";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "6T1-st-oRK"; */
+"6T1-st-oRK.placeholder" = "Логин";
+
+/* Class = "UITextField"; placeholder = "Enter provider url"; ObjectID = "Ahn-lv-1pp"; */
+"Ahn-lv-1pp.placeholder" = "Название телеоператора";
+
+/* Class = "UITableViewSection"; headerTitle = "Приложение"; ObjectID = "CUe-l8-agl"; */
+"CUe-l8-agl.headerTitle" = "Приложение";
+
+/* Class = "UILabel"; text = "Предлагать проверку скорости при просмотре"; ObjectID = "DCG-L6-d1u"; */
+"DCG-L6-d1u.text" = "Предлагать проверку скорости при просмотре";
+
+/* Class = "UILabel"; text = "Не запрашивать защитный код"; ObjectID = "F6l-3B-3f7"; */
+"F6l-3B-3f7.text" = "Не запрашивать защитный код";
+
+/* Class = "UITableViewSection"; headerTitle = "Сеть"; ObjectID = "FD3-JE-koF"; */
+"FD3-JE-koF.headerTitle" = "Сеть";
+
+/* Class = "UILabel"; text = "Задержка вещания (часы)"; ObjectID = "J50-7J-2tG"; */
+"J50-7J-2tG.text" = "Задержка вещания (часы)";
+
+/* Class = "UINavigationItem"; title = "Настройки"; ObjectID = "KS7-uz-Icf"; */
+"KS7-uz-Icf.title" = "Настройки";
+
+/* Class = "UILabel"; text = "Сменить защитный код"; ObjectID = "KlI-Pd-YUe"; */
+"KlI-Pd-YUe.text" = "Сменить защитный код";
+
+/* Class = "UILabel"; text = "Язык"; ObjectID = "KoW-5N-Mb0"; */
+"KoW-5N-Mb0.text" = "Язык";
+
+/* Class = "UILabel"; text = "Часовой пояс"; ObjectID = "MOn-dd-nPR"; */
+"MOn-dd-nPR.text" = "Часовой пояс";
+
+/* Class = "UINavigationItem"; title = "Playlist mode"; ObjectID = "Nm2-Xp-4lH"; */
+"Nm2-Xp-4lH.title" = "Режим воспроизведения";
+
+/* Class = "UILabel"; text = "Четверг"; ObjectID = "OFv-fU-184"; */
+"OFv-fU-184.text" = "Четверг";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "PGa-dg-dws"; */
+"PGa-dg-dws.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "Загружать видео только по Wi-FI"; ObjectID = "Q4Q-kN-EpC"; */
+"Q4Q-kN-EpC.text" = "Загружать видео только по Wi-FI";
+
+/* Class = "UITableViewSection"; headerTitle = "Абонемент"; ObjectID = "S3X-Sc-sPd"; */
+"S3X-Sc-sPd.headerTitle" = "Абонемент";
+
+/* Class = "UILabel"; text = "Заголовок"; ObjectID = "SdX-Fu-EE4"; */
+"SdX-Fu-EE4.text" = "Заголовок";
+
+/* Class = "UILabel"; text = "Выйти"; ObjectID = "SmU-eO-P9O"; */
+"SmU-eO-P9O.text" = "Выйти";
+
+/* Class = "UILabel"; text = "Битрейт Ведотеки"; ObjectID = "V5i-yc-kew"; */
+"V5i-yc-kew.text" = "Битрейт Видео";
+
+/* Class = "UILabel"; text = "Версия 1.0.0"; ObjectID = "Yy4-8q-vcS"; */
+"Yy4-8q-vcS.text" = "Версия 1.0.0";
+
+/* Class = "UILabel"; text = "Название канала"; ObjectID = "cK0-W7-puS"; */
+"cK0-W7-puS.text" = "Название канала";
+
+/* Class = "UILabel"; text = "Программа"; ObjectID = "cey-as-qaL"; */
+"cey-as-qaL.text" = "Программа";
+
+/* Class = "UILabel"; text = "01:01"; ObjectID = "ckF-Gu-zc8"; */
+"ckF-Gu-zc8.text" = "01:01";
+
+/* Class = "UILabel"; text = "01:00"; ObjectID = "eMG-Qf-Cjk"; */
+"eMG-Qf-Cjk.text" = "01:00";
+
+/* Class = "UILabel"; text = "21.02.2021"; ObjectID = "fAs-an-Eim"; */
+"fAs-an-Eim.text" = "21.02.2021";
+
+/* Class = "UITabBarItem"; title = "Video"; ObjectID = "gFd-tC-fGT"; */
+"gFd-tC-fGT.title" = "Видео";
+
+/* Class = "UILabel"; text = "Название программы (возрастной рейтинг)"; ObjectID = "i0l-xh-Lgb"; */
+"i0l-xh-Lgb.text" = "Название программы (возрастной рейтинг)";
+
+/* Class = "UILabel"; text = "01:00"; ObjectID = "jNv-T5-7nl"; */
+"jNv-T5-7nl.text" = "01:00";
+
+/* Class = "UILabel"; text = "Битрейт"; ObjectID = "jhh-bY-sDx"; */
+"jhh-bY-sDx.text" = "Битрейт";
+
+/* Class = "UILabel"; text = "Текст подсказки"; ObjectID = "l1f-AX-kvL"; */
+"l1f-AX-kvL.text" = "Текст подсказки";
+
+/* Class = "UILabel"; text = "Сервер"; ObjectID = "l6m-b3-UzZ"; */
+"l6m-b3-UzZ.text" = "Сервер";
+
+/* Class = "UINavigationItem"; title = "Телевидение"; ObjectID = "lnS-Tw-DCR"; */
+"lnS-Tw-DCR.title" = "Телевидение";
+
+/* Class = "UITabBarItem"; title = "TV"; ObjectID = "m1g-JU-VSx"; */
+"m1g-JU-VSx.title" = "ТВ";
+
+/* Class = "UIButton"; normalTitle = "CHECK"; ObjectID = "naJ-mQ-BW4"; */
+"naJ-mQ-BW4.normalTitle" = "Проверить";
+
+/* Class = "UIButton"; normalTitle = "PROVIDE A LINK TO THE PLAYLIST"; ObjectID = "tUq-RT-ku5"; */
+"tUq-RT-ku5.normalTitle" = "ПРЕДОСТАВИТЬ ССЫЛКУ";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "uxF-mu-3iu"; */
+"uxF-mu-3iu.normalTitle" = "Вход";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "zeY-Jv-v2v"; */
+"zeY-Jv-v2v.placeholder" = "Пароль";
+
+/* Class = "UIButton"; normalTitle = "SPECIFY THE PROVIDER"; ObjectID = "zj6-mQ-0sc"; */
+"zj6-mQ-0sc.normalTitle" = "УКАЗАТЬ ПОСТАВЩИКА УСЛУГ";
