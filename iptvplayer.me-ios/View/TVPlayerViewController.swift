@@ -27,11 +27,12 @@ class TVPlayerViewController: UIViewController {
         didSet {
             guard let channel = currentChannel else { return }
             if let cid = channel.id {
-                webClient.requestURL(forChannel: cid, withStartTime: String(currentProgram.ut_start!), andProtocol: "hls") { [weak self] stringURL in
+                webClient.requestURL(forChannel: cid, withStartTime: String(currentProgram.ut_start!), andProtocol: "download") { [weak self] stringURL in
                     guard let self = self else { return }
                     self.urlString = stringURL
                     self.setItemPlayerView(videoURL: self.urlString)
                     self.updateUIForCurrentProgram()
+                    print(self.urlString)
                 }
             }
         }
@@ -69,10 +70,12 @@ class TVPlayerViewController: UIViewController {
         playerView.use(controls: controls)
         
         if let cid = channel.id {
-            webClient.requestURL(forChannel: cid) { [weak self] stringURL in
+            webClient.requestURL(forChannel: cid, andProtocol: "download") { [weak self] stringURL in
                 guard let self = self else { return }
                 self.urlString = stringURL
                 self.setItemPlayerView(videoURL: self.urlString)
+                print(self.urlString)
+
             }
         }
     }

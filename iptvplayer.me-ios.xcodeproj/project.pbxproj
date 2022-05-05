@@ -23,6 +23,13 @@
 		073A51AC280D81C500A19793 /* RadioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073A51AA280D81C500A19793 /* RadioTableViewCell.xib */; };
 		073A51AE280DC6ED00A19793 /* Radio2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A51AD280DC6ED00A19793 /* Radio2TableViewCell.swift */; };
 		073A51B0280DCAB400A19793 /* Radio2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073A51AF280DCAB400A19793 /* Radio2TableViewCell.xib */; };
+		078D957B28216780009C3439 /* CircularProgressbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D957A28216780009C3439 /* CircularProgressbarView.swift */; };
+		07A43778281E9E1700E2135A /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A43777281E9E1700E2135A /* DownloadViewController.swift */; };
+		07AA89AB2822D58E00154D9F /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AA89AA2822D58E00154D9F /* DownloadService.swift */; };
+		07AA89AD2822D5A700154D9F /* DownloadEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AA89AC2822D5A700154D9F /* DownloadEntity.swift */; };
+		07AA89AF2822D5BF00154D9F /* DownloadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AA89AE2822D5BF00154D9F /* DownloadResponse.swift */; };
+		07B2C0632821A4C40006C46F /* DownloadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2C0612821A4C40006C46F /* DownloadCollectionViewCell.swift */; };
+		07B2C0642821A4C40006C46F /* DownloadCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B2C0622821A4C40006C46F /* DownloadCollectionViewCell.xib */; };
 		07C51604281160B2001873F6 /* Radio3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C51602281160B2001873F6 /* Radio3TableViewCell.swift */; };
 		07C51605281160B2001873F6 /* Radio3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C51603281160B2001873F6 /* Radio3TableViewCell.xib */; };
 		07C5160A28116B89001873F6 /* Radio4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C5160828116B89001873F6 /* Radio4TableViewCell.swift */; };
@@ -135,6 +142,13 @@
 		073A51AA280D81C500A19793 /* RadioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioTableViewCell.xib; sourceTree = "<group>"; };
 		073A51AD280DC6ED00A19793 /* Radio2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio2TableViewCell.swift; sourceTree = "<group>"; };
 		073A51AF280DCAB400A19793 /* Radio2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Radio2TableViewCell.xib; sourceTree = "<group>"; };
+		078D957A28216780009C3439 /* CircularProgressbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressbarView.swift; sourceTree = "<group>"; };
+		07A43777281E9E1700E2135A /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		07AA89AA2822D58E00154D9F /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		07AA89AC2822D5A700154D9F /* DownloadEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadEntity.swift; sourceTree = "<group>"; };
+		07AA89AE2822D5BF00154D9F /* DownloadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadResponse.swift; sourceTree = "<group>"; };
+		07B2C0612821A4C40006C46F /* DownloadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCollectionViewCell.swift; sourceTree = "<group>"; };
+		07B2C0622821A4C40006C46F /* DownloadCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadCollectionViewCell.xib; sourceTree = "<group>"; };
 		07B3C0342810194300D0B357 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		07B3C0352810194300D0B357 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		07B3C03E28101AF800D0B357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -324,6 +338,44 @@
 			path = Responce;
 			sourceTree = "<group>";
 		};
+		078D957928216760009C3439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				078D957A28216780009C3439 /* CircularProgressbarView.swift */,
+				07B2C0612821A4C40006C46F /* DownloadCollectionViewCell.swift */,
+				07B2C0622821A4C40006C46F /* DownloadCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07A43775281E9DBA00E2135A /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				07AA89A92822D55000154D9F /* DownloadManager */,
+				078D957928216760009C3439 /* View */,
+				07A43776281E9DF900E2135A /* Controller */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		07A43776281E9DF900E2135A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07A43777281E9E1700E2135A /* DownloadViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07AA89A92822D55000154D9F /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				07AA89AA2822D58E00154D9F /* DownloadService.swift */,
+				07AA89AC2822D5A700154D9F /* DownloadEntity.swift */,
+				07AA89AE2822D5BF00154D9F /* DownloadResponse.swift */,
+			);
+			path = DownloadManager;
+			sourceTree = "<group>";
+		};
 		07B3C03F2810258E00D0B357 /* Localizable */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,12 +446,13 @@
 				D838020F25406C1A00F47571 /* Auth */,
 				D865C4A02551759A00A28BA4 /* SpeedTest */,
 				D8F91DC3255D425C00645816 /* Videos */,
-				11A516FE24DD47E60023B096 /* Supporting Files */,
+				07A43775281E9DBA00E2135A /* Downloads */,
 				073A518A280B06B600A19793 /* Settings */,
 				1120C27D24E13CDA00F5C32D /* Controller */,
 				D8F864D8254AFDF000AE395A /* Storyboard */,
 				1120C27C24E13CD200F5C32D /* View */,
 				1156AD2E24E846BB00C836A0 /* Model */,
+				11A516FE24DD47E60023B096 /* Supporting Files */,
 				11A516F824DD3FC90023B096 /* Info.plist */,
 			);
 			path = "iptvplayer.me-ios";
@@ -903,6 +956,7 @@
 				D8893A732563CA4F00A84712 /* VideosFilterTableViewCell.xib in Resources */,
 				073A51AC280D81C500A19793 /* RadioTableViewCell.xib in Resources */,
 				11A516F724DD3FC90023B096 /* LaunchScreen.storyboard in Resources */,
+				07B2C0642821A4C40006C46F /* DownloadCollectionViewCell.xib in Resources */,
 				D8F91DCB255D439600645816 /* VideosFilters.storyboard in Resources */,
 				07C51605281160B2001873F6 /* Radio3TableViewCell.xib in Resources */,
 				D8893A8C25641F0000A84712 /* VideosFilterSortingTableViewCell.xib in Resources */,
@@ -984,6 +1038,7 @@
 				D8793F1D255BE9A700F8AFF1 /* ServersSettingsImpl.swift in Sources */,
 				D80508D5256BA75E00D1723D /* FavoriteListService.swift in Sources */,
 				1117E5EA24EBEF070003827C /* ProgramsList.swift in Sources */,
+				07B2C0632821A4C40006C46F /* DownloadCollectionViewCell.swift in Sources */,
 				D8893A8B25641F0000A84712 /* VideosFilterSortingTableViewCell.swift in Sources */,
 				D8893A7E2563F79600A84712 /* GetFiltersImpl.swift in Sources */,
 				1117E5EA24EBEF070003827C /* ProgramsList.swift in Sources */,
@@ -1011,10 +1066,12 @@
 				D80508E3256C128200D1723D /* VideoDetailsService.swift in Sources */,
 				11038BAF25304B5A00A44945 /* ProviderDataModelItem.swift in Sources */,
 				11B82ADB2535A09F00951FDA /* ProviderHintCell.swift in Sources */,
+				07AA89AD2822D5A700154D9F /* DownloadEntity.swift in Sources */,
 				11A42B7C24EAA01500E52980 /* ChannelCategoryCell.swift in Sources */,
 				D8B140F92551A03200B86848 /* ServerTableCellModel.swift in Sources */,
 				073A51AE280DC6ED00A19793 /* Radio2TableViewCell.swift in Sources */,
 				D83802072540577C00F47571 /* WebClient.swift in Sources */,
+				07AA89AF2822D5BF00154D9F /* DownloadResponse.swift in Sources */,
 				073A51A5280C8C7400A19793 /* RowSettings.swift in Sources */,
 				D865C4AD255176EE00A28BA4 /* ServersTableViewCell.swift in Sources */,
 				11E651972547E2100065786C /* MainNavigationController.swift in Sources */,
@@ -1023,7 +1080,9 @@
 				D8893A88256407CD00A84712 /* VideosFilterDetailsTableCellModel.swift in Sources */,
 				07C5160A28116B89001873F6 /* Radio4TableViewCell.swift in Sources */,
 				073A5192280B075700A19793 /* BitrateSDViewController.swift in Sources */,
+				078D957B28216780009C3439 /* CircularProgressbarView.swift in Sources */,
 				073A51A0280C8AC600A19793 /* SettingsServiceImpl.swift in Sources */,
+				07A43778281E9E1700E2135A /* DownloadViewController.swift in Sources */,
 				701B7F47255FE672002853A3 /* URLProvider.swift in Sources */,
 				D80508E5256C129E00D1723D /* VideoDetailResponse.swift in Sources */,
 				073A5195280C35DE00A19793 /* tableViewExtansion.swift in Sources */,
@@ -1051,6 +1110,7 @@
 				D8F91DD6255D638200645816 /* VideoCollectionCellModel.swift in Sources */,
 				D8A9A9902562D683009DDD63 /* VideosFiltersViewController.swift in Sources */,
 				D8893A85256406E200A84712 /* VideosFilterDetailsTableViewCell.swift in Sources */,
+				07AA89AB2822D58E00154D9F /* DownloadService.swift in Sources */,
 				112FB52A24E2821C00190AD6 /* PlaylistModeViewController.swift in Sources */,
 				073A51AB280D81C500A19793 /* RadioTableViewCell.swift in Sources */,
 				D8A9A985255E9634009DDD63 /* RowVideoData.swift in Sources */,
@@ -1217,7 +1277,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5FUR3JF2H;
+				DEVELOPMENT_TEAM = SF9YWD6YY4;
 				INFOPLIST_FILE = "iptvplayer.me-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1225,7 +1285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iptvplayer-me-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iptvplayer-me-iosssss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

@@ -14,11 +14,12 @@ class VideoDetailsServiceImpl: VideoDetailsService {
         return webClient.request(path: "/api/json/vod_info", method: .get, parameters: parameters, completion: completion)
     }
     
-    func getVideoFile(withID id: String,format: String, _ completion: @escaping (VideoFileResponse?, BaseServiceError?) -> Void) -> Request? {
+    func getVideoFile(withID id: String,format: String, stream_protocol: String, _ completion: @escaping (VideoFileResponse?, BaseServiceError?) -> Void) -> Request? {
         
         let parameters: Parameters = [
             "fileid": id,
-            "format": format
+            "format": format,
+            "download": stream_protocol
         ]
         
         let webClient = WebClient<VideoFileResponse>()

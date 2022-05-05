@@ -14,7 +14,6 @@ class RowVideoDataItem: Mappable {
     // MARK: Public properties
     
     var format: String?
-   // var title: String?
     var id: String?
     
     // MARK: Init
@@ -26,11 +25,8 @@ class RowVideoDataItem: Mappable {
     // MARK: Mapping
     
     func mapping(map: Map) {
-
         format  <- map["format"]
         id    <- map["id"]
-       // title <- map["title"]
-
     }
     
 }

@@ -202,9 +202,9 @@ final class WebClient<T: BaseMappable> {
         let endPoint = "/api/json/vod_geturl"
         let interceptor = NetworkInterceptor()
         
-        if let gmt = ut_start, let stream_protocol = stream_protocol {
+        if  let stream_protocol = stream_protocol {
             
-            AF.request(baseUrl + endPoint, method: .get, parameters: ["fileid": id,"formet":formetName]).response { response in
+            AF.request(baseUrl + endPoint, method: .get, parameters: ["fileid": id,"formet":formetName, "stream_protocol": stream_protocol, "http_status_codes": "default"]).response { response in
                 guard let data = response.data else { return }
                 
                 do {
