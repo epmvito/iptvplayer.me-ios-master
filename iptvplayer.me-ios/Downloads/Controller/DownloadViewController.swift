@@ -8,20 +8,39 @@
 import Foundation
 import UIKit
 
+var videoFileLis:[RowVideoDataItem] = [RowVideoDataItem]()
+
 class DownloadViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
     var gg: PlaylistModeViewController!
     
+    var how: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "Download"
-        
+        listVideos()
         tableView.delegate = self
         tableView.dataSource = self
+    }
+    
+    func listVideos() -> [URL] {
+        let fileManager = FileManager.default
+        let documentDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
+
+        let files = try? fileManager.contentsOfDirectory(
+            at: documentDirectory,
+            includingPropertiesForKeys: nil,
+            options: [.skipsSubdirectoryDescendants, .skipsHiddenFiles]
+        ).filter {
+            ["mp4"].contains($0.pathExtension.lowercased())
+        }
+        print(files)
+
+        return files ?? []
     }
     
 }
@@ -32,55 +51,14 @@ extension DownloadViewController: UITableViewDelegate, UITableViewDataSource{
         return 5
     }
     
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-//        func listFilesFromDocumentsFolder() -> [String]
-//        {
-//            let dirs = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.allDomainsMask, true)
-//            if dirs != [] {
-//                let dir = dirs[0]
-//                let fileList = try! FileManager.default.contentsOfDirectory(atPath: dir)
-//                return fileList
-//            }else{
-//                let fileList = [""]
-//                return fileList
-//            }
-//        }
-//        let fileManager:FileManager = FileManager.default
-//            let fileList = listFilesFromDocumentsFolder()
-//
-//            let count = fileList.count
-//
-//            for i in 0..<count
-//            {
-//                if fileManager.fileExists(atPath: fileList[i]) != true
-//                {
-//                    print("File is \(fileList[i])")
-//                }
-//            }
-        let fileManager = FileManager.default
-        let documentsURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        do {
-            let fileURLs = try fileManager.contentsOfDirectory(at: documentsURL, includingPropertiesForKeys: nil)
-            // process files
-        } catch {
-            print("Error while enumerating files \(documentsURL.path): \(error.localizedDescription)")
-        }
-        print(FileManager.default.urls(for: .documentDirectory) ?? "none")
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "lohi", for: indexPath)
+        
+        
         
         return cell
     }
     
 }
-
-extension FileManager {
-    func urls(for directory: FileManager.SearchPathDirectory, skipsHiddenFiles: Bool = true ) -> [URL]? {
-        let documentsURL = urls(for: directory, in: .userDomainMask)[0]
-        let fileURLs = try? contentsOfDirectory(at: documentsURL, includingPropertiesForKeys: nil, options: skipsHiddenFiles ? .skipsHiddenFiles : [] )
-        return fileURLs
-    }
-}
-
 

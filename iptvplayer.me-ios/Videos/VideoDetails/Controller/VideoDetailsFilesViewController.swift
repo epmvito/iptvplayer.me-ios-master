@@ -27,7 +27,6 @@ class VideoDetailsFilesViewController: UIViewController {
         videoTableView.delegate = self
         videoTableView.dataSource = self
         title = NSLocalizedString("files", comment: "")
-        
         }
   
     

@@ -143,7 +143,7 @@
 		073A51AD280DC6ED00A19793 /* Radio2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio2TableViewCell.swift; sourceTree = "<group>"; };
 		073A51AF280DCAB400A19793 /* Radio2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Radio2TableViewCell.xib; sourceTree = "<group>"; };
 		078D957A28216780009C3439 /* CircularProgressbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressbarView.swift; sourceTree = "<group>"; };
-		07A43777281E9E1700E2135A /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		07A43777281E9E1700E2135A /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		07AA89AA2822D58E00154D9F /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 		07AA89AC2822D5A700154D9F /* DownloadEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadEntity.swift; sourceTree = "<group>"; };
 		07AA89AE2822D5BF00154D9F /* DownloadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadResponse.swift; sourceTree = "<group>"; };
